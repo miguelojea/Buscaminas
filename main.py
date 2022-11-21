@@ -4,13 +4,6 @@ from variables import *
 from cellClass import Cell
 import mysql.connector as mysql
 
-import os
-print("direcotior:",os.getcwd())
-print("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-#aaa
-
-bbb = 1
-
 def createMenus():
     global root, barraMenu, menuJuego, subMenuDif, menuEstadisticas
 
